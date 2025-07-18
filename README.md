@@ -45,7 +45,6 @@ To train the model, run the `train.py` script:
 
 ```bash
 python train.py
-
 ```
 Make sure to specify the path to your dataset in the script if it's not in the default location.
 
@@ -65,6 +64,7 @@ To use the graphical user interface for real-time segmentation with a connected 
 python gui.py
 ```
 
+***
 🏗️ Model Architecture
 The core of this project is a U-Net based model, a convolutional neural network architecture that is well-suited for biomedical image segmentation tasks. The U-Net architecture consists of an encoder and a decoder path, with skip connections that allow for precise localization.
 
