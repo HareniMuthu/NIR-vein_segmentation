@@ -38,6 +38,7 @@ pip install -r requirements.txt
 
 You can either train the model from scratch or use the pre-trained models for inference.
 
+***
 ### Training
 
 To train the model, run the `train.py` script:
@@ -48,7 +49,7 @@ python train.py
 ```
 Make sure to specify the path to your dataset in the script if it's not in the default location.
 
-***
+
 Inference
 For inference on new images, use the inference.py script:
 
