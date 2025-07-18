@@ -48,6 +48,7 @@ python train.py
 ```
 Make sure to specify the path to your dataset in the script if it's not in the default location.
 
+***
 Inference
 For inference on new images, use the inference.py script:
 
@@ -56,14 +57,21 @@ python inference.py --image_path /path/to/your/image.png
 ```
 The segmented output will be saved in the /output directory.
 
+***
+
 GUI
 To use the graphical user interface for real-time segmentation with a connected NIR camera:
 
 ```bash
 python gui.py
 ```
+
+***
+
 🏗️ Model Architecture
 The core of this project is a U-Net based model, a convolutional neural network architecture that is well-suited for biomedical image segmentation tasks. The U-Net architecture consists of an encoder and a decoder path, with skip connections that allow for precise localization.
+
+***
 
 📜 License
 This project is licensed under the MIT License. See the LICENSE file for details.
